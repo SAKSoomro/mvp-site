@@ -237,6 +237,7 @@ span {
   section {
     margin-left: 1em !important;
     margin-right: 1em !important;
+    margin: 0 auto;
   }
   .main-logo img {
     width: 350px;
@@ -253,13 +254,13 @@ span {
     align-items: center;
   }
   .mpb-header {
-    font-size: 20px;
+    font-size: 18px;
   }
   .card-section {
     max-width: 35rem !important;
   }
   .cs-header p {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
   .cs-cards {
     grid-template-columns: repeat(1, 1fr);
@@ -269,17 +270,44 @@ span {
     font-size: 18px;
   }
   .start p {
-    font-size: 18px;
+    font-size: 14px;
   }
   .end p {
-    font-size: 12px;
+    font-size: 11px;
   }
   .end img {
-    width: 18px;
+    width: 12px;
     margin: 0.2em;
   }
   body {
     background-size: cover;
     background-position: bottom;
+  }
+  .signup-field {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .email-input {
+    max-width: 15rem;
+    font-size: 12px;
+  }
+  .submit-btn {
+    padding: 0.1em 0.5em;
+  }
+  .email {
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 16px;
+  }
+  .phone-number {
+    font-size: 16px;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  footer {
+    align-items: center;
   }
 }
